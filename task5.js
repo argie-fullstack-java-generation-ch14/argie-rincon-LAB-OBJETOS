@@ -5,4 +5,4 @@ function FriendsList(namesArr) {
 const qtyNames = process.argv[3];
 const names = process.argv.slice(4);
 
-// console.log(names);
+console.log(names);
