@@ -1,8 +1,10 @@
-// ¡Escribe tu código debajo de esta línea!
+function Journey(inicio, fin) {
+  this.inicio = inicio;
+  this.fin = fin;
+}
 
-
-
-// ¡Escribe tu código encima de esta línea!
+const desde = process.argv[3];
+const hasta = process.argv[4];
 
 const viaje = new Journey(desde, hasta)
 
